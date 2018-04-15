@@ -79,7 +79,7 @@ class Student
       LIMIT 1
       SQL
 
-    DB[:conn].execute(sql, 10).first
+    DB[:conn].execute(sql, 10)
     binding.pry
   end
 
