@@ -38,7 +38,6 @@ class Student
       self.new_from_db(row)
       binding.pry
     end.first
-    binding.pry
   end
 
   def self.count_all_students_in_grade_9
