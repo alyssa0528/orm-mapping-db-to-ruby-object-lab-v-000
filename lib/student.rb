@@ -74,7 +74,7 @@ class Student
       SELECT *
       FROM students
       WHERE grade = ?
-      LIMIT 1
+      AND id = ?
       SQL
 
     DB[:conn].execute(sql, 10)
